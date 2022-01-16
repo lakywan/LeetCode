@@ -1,6 +1,8 @@
-class Solution {
+class Solution
+{
 public:
-    vector<int> sortedSquares(vector<int>& nums) {
+    vector<int> sortedSquares(vector<int>& nums)
+    {
         int n = nums.size();  // n: to get the size of nums
 
         vector<int> result(n);  // create a new vector with the same size as nums
