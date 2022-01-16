@@ -13,7 +13,7 @@ public:
         for(int i = n - 1; i >= 0; i--)
         {
             // take advantage of the absolute value
-            //   compare the current leftmost element to the current rightmost element
+            // compare the current leftmost element to the current rightmost element
             if (abs(nums[left_index]) < abs(nums[right_index]))  // if the rightmost element is greater
             {
                 result[i] = nums[right_index] * nums[right_index];  // square the value of current rightmost element and put it in result
