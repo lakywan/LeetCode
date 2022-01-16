@@ -1,6 +1,8 @@
-class Solution {
+class Solution
+{
 public:
-    void duplicateZeros(vector<int>& arr) {
+    void duplicateZeros(vector<int>& arr)
+    {
         // loop through arr
         for (int i = 0; i < arr.size(); i++)
         {
